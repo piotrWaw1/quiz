@@ -20,7 +20,9 @@ function Question({ question }: QuestionProps) {
   return (
     <div className="question">
       <h2>{question.question}</h2>
-      {question.options.map((option, index) => (
+      {question.options
+        .sort(() => Math.random() - 0.5)
+        .map((option, index) => (
           <p className="answer" onClick={(e) => checkAnswer(option, e)} key={index}>{option}</p>
         )
       )}
