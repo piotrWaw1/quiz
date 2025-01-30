@@ -11,13 +11,13 @@ export interface QuestionData {
 
 function App() {
   const questionsData: QuestionData[] = questions.questions
-  console.log(questionsData[0].question)
+
   return (
     <div>
       {questionsData
         .sort(() => Math.random() - 0.5)
         .map((option, index) => (
-        <Question question={option} key={index}/>
+        <Question question={option} index={index} key={index}/>
       ))}
     </div>
   )
