@@ -1,0 +1,1320 @@
+{
+  "questions": [
+    {
+      "question": "Co zapewnia zarówno bezpieczną segmentację, jak i ochronę przed zagrożeniami w rozwiązaniu Secure Data Center?",
+      "options": [
+        "Oprogramowanie Cisco Security Manager",
+        "Serwer AAA",
+        "Adaptacyjne urządzenie zabezpieczające",
+        "system zapobiegania włamaniom"
+      ],
+      "correct_answer": "Adaptacyjne urządzenie zabezpieczające"
+    },
+    {
+      "question": "Jakie są trzy podstawowe komponenty rozwiązania Cisco Secure Data Center? (Wybierz trzy.)",
+      "options": [
+        "sieć siatki",
+        "bezpieczna segmentacja",
+        "widoczność",
+        "obrona przed zagrożeniem",
+        "serwery",
+        "infrastruktura"
+      ],
+      "correct_answer": [
+        "bezpieczna segmentacja",
+        "widoczność",
+        "obrona przed zagrożeniem"
+      ]
+    },
+    {
+      "question": "Jakie są trzy cechy trybu przezroczystego ASA? (Wybierz trzy.)",
+      "options": [
+        "Ten tryb nie obsługuje przekaźników VPN, QoS ani DHCP.",
+        "Jest to tradycyjny tryb wdrażania zapory.",
+        "Ten tryb jest określany jako 'uderzenie w drut.'",
+        "NAT można zaimplementować między połączonymi sieciami.",
+        "W tym trybie ASA jest niewidoczny dla atakującego.",
+        "Interfejsy oddzielnych sieci ASA warstwy 3 i wymagają adresów IP w różnych podsieciach."
+      ],
+      "correct_answer": [
+        "Ten tryb nie obsługuje przekaźników VPN, QoS ani DHCP.",
+        "Ten tryb jest określany jako 'uderzenie w drut.'",
+        "W tym trybie ASA jest niewidoczny dla atakującego."
+      ]
+    },
+    {
+      "question": "Co jest potrzebne, aby określony ruch pochodzący z zewnętrznej sieci zapory ASA mógł dotrzeć do sieci wewnętrznej?",
+      "options": [
+        "ACL",
+        "NAT",
+        "dynamiczne protokoły routingu",
+        "poza strefą bezpieczeństwa poziom 0"
+      ],
+      "correct_answer": "ACL"
+    },
+    {
+      "question": "Które dwa zadania są związane z hartowaniem routera? (Wybierz dwa.)",
+      "options": [
+        "umieszczenie routera w bezpiecznym pomieszczeniu",
+        "wyłączanie nieużywanych portów i interfejsów",
+        "instalacja maksymalnej możliwej pamięci",
+        "zapewnienie dostępu administracyjnego",
+        "z wykorzystaniem zasilaczy bezprzerwowych"
+      ],
+      "correct_answer": [
+        "wyłączanie nieużywanych portów i interfejsów",
+        "zapewnienie dostępu administracyjnego"
+      ]
+    },
+    {
+      "question": "Jakie możliwości ochrony przed zagrożeniami zapewnia Cisco ESA?",
+      "options": [
+        "filtrowanie sieci",
+        "bezpieczeństwo dostępu do chmury",
+        "ochrona przed spamem",
+        "Monitorowanie ruchu warstwy 4"
+      ],
+      "correct_answer": "ochrona przed spamem"
+    },
+    {
+      "question": "Jakie są dwa środki bezpieczeństwa stosowane w celu ochrony punktów końcowych w sieci bez granic? (Wybierz dwa.)",
+      "options": [
+        "demylisting",
+        "Przerwij IPS",
+        "DLP",
+        "DMZ",
+        "rootkit"
+      ],
+      "correct_answer": [
+        "demylisting",
+        "DLP"
+      ]
+    },
+    {
+      "question": "Jakie trzy typy ruchu są dozwolone, gdy wydano polecenie auto kontroli portu uwierzytelnienia, a klient nie został jeszcze uwierzytelniony? (Wybierz trzy.)",
+      "options": [
+        "CDP",
+        "802,1Q",
+        "IPsec",
+        "TACACS +",
+        "STP",
+        "EAPOL"
+      ],
+      "correct_answer": [
+        "CDP",
+        "STP",
+        "EAPOL"
+      ]
+    },
+    {
+      "question": "Które stwierdzenie opisuje cechę protokołu IKE?",
+      "options": [
+        "Wykorzystuje port UDP 500 do wymiany informacji IKE między bramami bezpieczeństwa.",
+        "IKE Phase 1 można wdrożyć w trzech różnych trybach: głównym, agresywnym lub szybkim.",
+        "Umożliwia transmisję kluczy bezpośrednio przez sieć.",
+        "Celem IKE Phase 2 jest wynegocjowanie powiązania bezpieczeństwa między dwoma rówieśnikami IKE."
+      ],
+      "correct_answer": "Wykorzystuje port UDP 500 do wymiany informacji IKE między bramami bezpieczeństwa."
+    },
+    {
+      "question": "Jakie działania podejmują rówieśnicy IPsec podczas wymiany IKE Phase 2?",
+      "options": [
+        "wymiana kluczy DH",
+        "negocjacje polityki IPsec",
+        "negocjacje zestawów zasad IKE",
+        "weryfikacja tożsamości rówieśniczej"
+      ],
+      "correct_answer": "negocjacje polityki IPsec"
+    },
+    {
+      "question": "Jakie dwa algorytmy skrótu są używane z IPsec AH w celu zagwarantowania autentyczności? (Wybierz dwa.)",
+      "options": [
+        "SHA",
+        "RSA",
+        "DH",
+        "MD5",
+        "AES"
+      ],
+      "correct_answer": [
+        "SHA",
+        "MD5"
+      ]
+    },
+    {
+      "question": "Co jest charakterystyczne dla opartego na rolach widoku CLI konfiguracji routera?",
+      "options": [
+        "Widok CLI ma hierarchię poleceń z coraz wyższymi widokami.",
+        "Po usunięciu podglądu powiązane widoki CLI są usuwane.",
+        "Pojedynczy widok CLI może być współdzielony w ramach wielu podglądów.",
+        "Tylko użytkownik podglądu może skonfigurować nowy widok i dodać lub usunąć polecenia z istniejących widoków."
+      ],
+      "correct_answer": "Pojedynczy widok CLI może być współdzielony w ramach wielu podglądów."
+    },
+    {
+      "question": "Jakie jest ograniczenie korzystania z zarządzania OOB w dużej sieci przedsiębiorstw?",
+      "options": [
+        "Ruch produkcyjny dzieli sieć z ruchem zarządzającym.",
+        "Serwery terminali mogą mieć bezpośrednie połączenia konsoli z urządzeniami użytkownika wymagającymi zarządzania.",
+        "Zarządzanie OOB wymaga utworzenia VPN.",
+        "Wszystkie urządzenia wydają się być podłączone do jednej sieci zarządzania."
+      ],
+      "correct_answer": "Wszystkie urządzenia wydają się być podłączone do jednej sieci zarządzania."
+    },
+    {
+      "question": "Które dwa typy hakerów są zazwyczaj klasyfikowane jako hakerzy w szarym kapeluszu? (Wybierz dwa.)",
+      "options": [
+        "haktywiści",
+        "cyberprzestępcy",
+        "brokerzy podatności",
+        "dzieciaki ze skryptów",
+        "hakerzy sponsorowani przez państwo"
+      ],
+      "correct_answer": [
+        "haktywiści",
+        "brokerzy podatności"
+      ]
+    },
+    {
+      "question": "Opisując złośliwe oprogramowanie, jaka jest różnica między wirusem a robakiem?",
+      "options": [
+        "Wirus koncentruje się na uzyskaniu uprzywilejowanego dostępu do urządzenia, podczas gdy robak tego nie robi.",
+        "Wirus replikuje się, dołączając do innego pliku, podczas gdy robak może replikować się niezależnie.",
+        "Wirus może być użyty do przeprowadzenia ataku DoS (ale nie DDoS), ale robak może być użyty do uruchomienia zarówno ataków DoS, jak i DDoS.",
+        "Wirus może być wykorzystywany do wyświetlania reklam bez zgody użytkownika, podczas gdy robak nie."
+      ],
+      "correct_answer": "Wirus replikuje się, dołączając do innego pliku, podczas gdy robak może replikować się niezależnie."
+    },
+    {
+      "question": "Którego typu pakietu nie można przefiltrować przez wychodzącą ACL?",
+      "options": [
+        "pakiet multiemisji",
+        "Pakiet ICMP",
+        "pakiet telewizyjny",
+        "pakiet generowany przez router"
+      ],
+      "correct_answer": "pakiet generowany przez router"
+    },
+    {
+      "question": "Jaka technologia ma funkcję korzystania z zaufanych protokołów stron trzecich w celu wydawania poświadczeń, które są akceptowane jako autorytatywna tożsamość?",
+      "options": [
+        "podpisy cyfrowe",
+        "algorytmy skrótu",
+        "Certyfikaty PKI",
+        "klucze symetryczne"
+      ],
+      "correct_answer": "Certyfikaty PKI"
+    },
+    {
+      "question": "Jakie są dwie metody utrzymania statusu odwołania certyfikatu? (Wybierz dwa.)",
+      "options": [
+        "podległy CA",
+        "OCSP",
+        "DNS",
+        "LDAP",
+        "CRL"
+      ],
+      "correct_answer": [
+        "OCSP",
+        "CRL"
+      ]
+    },
+    {
+      "question": "Który protokół jest standardem IETF, który definiuje format certyfikatu cyfrowego PKI?",
+      "options": [
+        "SSL / TLS",
+        "X.500",
+        "LDAP",
+        "X.509"
+      ],
+      "correct_answer": "X.509"
+    },
+    {
+      "question": "Jaki jest najlepszy sposób, aby zapobiec atakowi VLAN?",
+      "options": [
+        "Wyłącz negocjacje magistrali dla portów magistrali i ustawowo porty nieprądowe jako porty dostępu.",
+        "Wyłącz STP na wszystkich portach nienarunkowych.",
+        "Użyj VLAN 1 jako natywnej sieci VLAN na portach magistrali.",
+        "Użyj enkapsulacji ISL na wszystkich łączach magistrali."
+      ],
+      "correct_answer": "Wyłącz negocjacje magistrali dla portów magistrali i ustawowo porty nieprądowe jako porty dostępu."
+    },
+    {
+      "question": "Jaki byłby główny powód, dla którego atakujący przeprowadziłby atak przepełnienia adresu MAC?",
+      "options": [
+        "tak, aby przełącznik przestał przekierowywać ruch",
+        "aby legalni gospodarze nie mogli uzyskać adresu MAC",
+        "aby atakujący mogł zobaczyć ramki przeznaczone dla innych hostów",
+        "aby atakujący mogł wykonać dowolny kod na przełączniku"
+      ],
+      "correct_answer": "aby atakujący mogł zobaczyć ramki przeznaczone dla innych hostów"
+    },
+    {
+      "question": "Jaka jest główna różnica między implementacją urządzeń IDS i IPS?",
+      "options": [
+        "IDS może negatywnie wpłynąć na przepływ pakietu, podczas gdy IPS nie może.",
+        "IDS musi zostać wdrożony wraz z urządzeniem zapory ogniowej, podczas gdy IPS może zastąpić zaporę ogniową.",
+        "IDS pozwoliłby na złośliwy ruch przed jego zaadresowaniem, podczas gdy IPS natychmiast go zatrzymuje.",
+        "IDS wykorzystuje technologię opartą na sygnałurach do wykrywania złośliwych pakietów, podczas gdy IPS wykorzystuje technologię opartą na profilu."
+      ],
+      "correct_answer": "IDS pozwoliłby na złośliwy ruch przed jego zaadresowaniem, podczas gdy IPS natychmiast go zatrzymuje."
+    },
+    {
+      "question": "Który atak jest zdefiniowany jako próba wykorzystania luk w oprogramowaniu, które są nieznane lub nieujawnione przez dostawcę?",
+      "options": [
+        "zero dni",
+        "Koń trojański",
+        "brutalna siła",
+        "człowiek w środku"
+      ],
+      "correct_answer": "zero dni"
+    },
+    {
+      "question": "Jakie są trzy poziomy podpisu dostarczone przez Snort IPS w ISR serii 4000? (Wybierz trzy.)",
+      "options": [
+        "bezpieczeństwo",
+        "kropla",
+        "odrzucić",
+        "łączność",
+        "sprawdzić",
+        "zrównoważony"
+      ],
+      "correct_answer": [
+        "bezpieczeństwo",
+        "łączność",
+        "zrównoważony"
+      ]
+    },
+    {
+      "question": "Jakie są trzy atrybuty podpisów IPS? (Wybierz trzy.)",
+      "options": [
+        "akcja",
+        "długość",
+        "wyzwalacz",
+        "typ",
+        "głębokość",
+        "funkcja"
+      ],
+      "correct_answer": [
+        "akcja",
+        "wyzwalacz",
+        "typ"
+      ]
+    },
+    {
+      "question": "Które dwie funkcje są zawarte zarówno w protokołach TACACS +, jak i RADIUS? (Wybierz dwa.)",
+      "options": [
+        "Obsługa SIP",
+        "szyfrowanie hasła",
+        "Obsługa 802.1X",
+        "oddzielne procesy uwierzytelniania i autoryzacji",
+        "wykorzystanie protokołów warstwy transportowej"
+      ],
+      "correct_answer": [
+        "szyfrowanie hasła",
+        "wykorzystanie protokołów warstwy transportowej"
+      ]
+    },
+    {
+      "question": "Jaką funkcję zapewnia protokół RADIUS?",
+      "options": [
+        "RADIUS zapewnia szyfrowanie pełnego pakietu podczas przesyłania.",
+        "RADIUS zapewnia osobne usługi AAA.",
+        "RADIUS zapewnia osobne porty do autoryzacji i rachunkowości.",
+        "RADIUS zapewnia bezpieczną komunikację za pomocą portu TCP 49."
+      ],
+      "correct_answer": "RADIUS zapewnia osobne porty do autoryzacji i rachunkowości."
+    },
+    {
+      "question": "Jakie są trzy cechy protokołu RADIUS? (Wybierz trzy.)",
+      "options": [
+        "wykorzystuje port TCP 49",
+        "wykorzystuje porty UDP do uwierzytelniania i rachunkowości",
+        "obsługuje 802.1X i SIP",
+        "oddziela procesy uwierzytelniania i autoryzacji",
+        "szyfruje całą treść pakietu",
+        "jest otwartym standardowym protokołem AAA RFC"
+      ],
+      "correct_answer": [
+        "wykorzystuje porty UDP do uwierzytelniania i rachunkowości",
+        "obsługuje 802.1X i SIP",
+        "jest otwartym standardowym protokołem AAA RFC"
+      ]
+    },
+    {
+      "question": "Która strefa zapory opartej na strefach jest zdefiniowana przez system i dotyczy ruchu przeznaczonego dla routera lub pochodzącego z routera?",
+      "options": [
+        "strefa lokalna",
+        "strefa wewnętrzna",
+        "strefa samoobsługowa",
+        "strefa systemowa",
+        "strefa zewnętrzna"
+      ],
+      "correct_answer": "strefa samoobsługowa"
+    },
+    {
+      "question": "Jakie są dwie zalety korzystania z ZPF zamiast klasycznej zapory ogniowej? (Wybierz dwa.)",
+      "options": [
+        "ZPF umożliwia umieszczanie interfejsów w strefach w celu kontroli IP.",
+        "ZPF nie jest zależny od ACL.",
+        "ZPF stosuje się wiele działankontrolnych.",
+        "Zasady ZPF są łatwe do odczytania i rozwiązywania problemów.",
+        "W przypadku ZPF router zezwala na pakiety, chyba że zostaną wyraźnie zablokowane."
+      ],
+      "correct_answer": [
+        "ZPF nie jest zależny od ACL.",
+        "Zasady ZPF są łatwe do odczytania i rozwiązywania problemów."
+      ]
+    },
+    {
+      "question": "W jaki sposób zapora ogniowa obsługuje ruch, gdy pochodzi z sieci prywatnej i podróżuje do sieci DMZ?",
+      "options": [
+        "Ruch jest selektywnie odrzucany na podstawie wymagań serwisowych.",
+        "Ruch jest zwykle dozwołony z niewielkimi lub żadnymi ograniczeniami.",
+        "Ruch jest selektywnie dozwołony i kontrolowany.",
+        "Ruch jest zwykle blokowany."
+      ],
+      "correct_answer": "Ruch jest zwykle dozwołony z niewielkimi lub żadnymi ograniczeniami."
+    },
+    {
+      "question": "Które dwa protokoły generują informacje o połączeniu w tabeli stanu i są obsługiwane do stanowego filtrowania? (Wybierz dwa.)",
+      "options": [
+        "ICMP",
+        "UDP",
+        "DHCP",
+        "TCP",
+        "HTTP"
+      ],
+      "correct_answer": [
+        "TCP",
+        "HTTP"
+      ]
+    },
+    {
+      "question": "Który typ zapory jest obsługiwany przez większość routerów i jest najłatwiejszy do wdrożenia?",
+      "options": [
+        "zapora nowej generacji",
+        "bezstanowa zapora ogniowa",
+        "stanowa zapora ogniowa",
+        "zapora proxy"
+      ],
+      "correct_answer": "bezstanowa zapora ogniowa"
+    },
+    {
+      "question": "Jakiego narzędzia do testowania sieci użyłby administrator do oceny i weryfikacji konfiguracji systemu pod kątem zasad bezpieczeństwa i standardów zgodności?",
+      "options": [
+        "Tripwire",
+        "LOphtcrack",
+        "Nessus",
+        "Metasploit"
+      ],
+      "correct_answer": "Tripwire"
+    },
+    {
+      "question": "Jaki typ testu bezpieczeństwa sieci może wykryć i zgłosić zmiany wprowadzone w systemach sieciowych?",
+      "options": [
+        "skanowanie podatności",
+        "skanowanie sieciowe",
+        "sprawdzanie integralności",
+        "testy penetracyjne"
+      ],
+      "correct_answer": "sprawdzanie integralności"
+    },
+    {
+      "question": "Jakie narzędzie do testowania bezpieczeństwa sieci ma możliwość podania szczegółów na temat źródła podejrzanej aktywności sieci?",
+      "options": [
+        "SIEM",
+        "SuperScan",
+        "Zenmap",
+        "Tripwire"
+      ],
+      "correct_answer": "SIEM"
+    },
+    {
+      "question": "Jak współcześni kryptografowie bronią się przed atakami brutalnej siły?",
+      "options": [
+        "Użyj analizy statystycznej, aby wyeliminować najczęstsze klucze szyfrowania.",
+        "Użyj przestrzeni klawiszy na tyle dużej, że przeprowadzenie udanego ataku zajmuje zbyt dużo pieniędzy i zbyt dużo czasu.",
+        "Użyj algorytmu, który wymaga od atakującego zarówno tekstu zaszyfrowanego, jak i tekstu jawnego, aby przeprowadzić udany atak.",
+        "Użyj analizy częstotliwości, aby upewnić się, że najpopularniejsze litery używane w języku nie są używane w komunikacie szyfrującym."
+      ],
+      "correct_answer": "Użyj przestrzeni klawiszy na tyle dużej, że przeprowadzenie udanego ataku zajmuje zbyt dużo pieniędzy i zbyt dużo czasu."
+    },
+    {
+      "question": "Jak działa szyfr Cezara na wiadomości?",
+      "options": [
+        "Listy wiadomości są zastępowane inną literą, która jest ustaloną liczbą miejsc w alfabecie.",
+        "Listy wiadomości są losowo układane.",
+        "Listy wiadomości są uporządkowane w oparciu o z góry określony wzór.",
+        "Słowa wiadomości są zastępowane na podstawie z góry określonego wzorca."
+      ],
+      "correct_answer": "Listy wiadomości są zastępowane inną literą, która jest ustaloną liczbą miejsc w alfabecie."
+    },
+    {
+      "question": "Jaki jest główny czynnik zapewniający bezpieczeństwo szyfrowania nowoczesnych algorytmów?",
+      "options": [
+        "złożoność algorytmu skrótu",
+        "zastosowanie 3DES w stosunku do AES",
+        "tajemnica kluczy",
+        "tajemnica algorytmu"
+      ],
+      "correct_answer": "tajemnica kluczy"
+    },
+    {
+      "question": "Jaki jest następny krok w ustanowieniu sieci VPN IPsec po zakończeniu fazy 1 IKE?",
+      "options": [
+        "negocjacje polityki ISAKMP",
+        "negocjacje w sprawie polityki IPsec SA",
+        "wykrywanie interesującego ruchu",
+        "uwierzytelnianie rówieśników"
+      ],
+      "correct_answer": "negocjacje w sprawie polityki IPsec SA"
+    },
+    {
+      "question": "Który algorytm może zapewnić integralność danych?",
+      "options": [
+        "RSA",
+        "AES",
+        "MD5",
+        "PKI"
+      ],
+      "correct_answer": "MD5"
+    },
+    {
+      "question": "Firma wdraża politykę bezpieczeństwa, która zapewnia, że plik wysyłany z centrali do oddziału może być otwierany tylko z ustalonym kodem. Ten kod jest zmieniany każdego dnia. Których dwóch algorytmów można użyć do wykonania tego zadania? (Wybierz dwa.)",
+      "options": [
+        "HMAC",
+        "MD5",
+        "3DES",
+        "SHA-1",
+        "AES"
+      ],
+      "correct_answer": [
+        "3DES",
+        "AES"
+      ]
+    },
+    {
+      "question": "Technik sieci został poproszony o zaprojektowanie wirtualnej sieci prywatnej między dwoma routerami odgałęzionymi. Jakiego rodzaju klucza kryptograficznego należy użyć w tym scenariuszu?",
+      "options": [
+        "klucz skrótu",
+        "klucz symetryczny",
+        "klucz asymetryczny",
+        "podpis cyfrowy"
+      ],
+      "correct_answer": "klucz symetryczny"
+    },
+    {
+      "question": "Które dwie opcje mogą ograniczyć informacje wykryte podczas skanowania portów? (Wybierz dwa.)",
+      "options": [
+        "system zapobiegania włamaniom",
+        "zapora ogniowa",
+        "uwierzytelnianie",
+        "hasła",
+        "szyfrowanie"
+      ],
+      "correct_answer": [
+        "system zapobiegania włamaniom",
+        "zapora ogniowa"
+      ]
+    },
+    {
+      "question": "Administrator odkrywa, że użytkownik uzyskuje dostęp do nowo utworzonej strony internetowej, która może być szkodliwa dla bezpieczeństwa firmy. Jakie działania powinien podjąć administrator w zakresie polityki bezpieczeństwa?",
+      "options": [
+        "Poproś użytkownika o natychmiastowe zatrzymanie się i poinformowanie użytkownika, że stanowi to podstawę do zwolnienia.",
+        "Utwórz regułę zapory blokującą odpowiednią stronę internetową.",
+        "Natychmiast zmień AUP i poproś wszystkich użytkowników o podpisanie zakitalizowanego AUP.",
+        "Natychmiast zawiesić uprawnienia sieciowe użytkownika"
+      ],
+      "correct_answer": "Natychmiast zmień AUP i poproś wszystkich użytkowników o podpisanie zakitalizowanego AUP."
+    },
+    {
+      "question": "ACL są używane przede wszystkim do filtrowania ruchu. Jakie są dwa dodatkowe zastosowania ACL? (Wybierz dwa.)",
+      "options": [
+        "określanie wewnętrznych hostów dla NAT",
+        "identyfikacja ruchu dla QoS",
+        "określanie adresów źródłowych do uwierzytelnienia",
+        "reorganizacja ruchu do sieci VLAN",
+        "filtrowanie pakietów VTP"
+      ],
+      "correct_answer": [
+        "określanie wewnętrznych hostów dla NAT",
+        "identyfikacja ruchu dla QoS"
+      ]
+    },
+    {
+      "question": "Jakie dwie funkcje zostały dodane w SNMPv3 w celu usunięcia słabości poprzednich wersji SNMP? (Wybierz dwa.)",
+      "options": [
+        "uwierzytelnianie",
+        "autoryzacja z priorytetem łańcucha społeczności",
+        "masowe wyszukiwanie obiektów MIB",
+        "Filtrowanie zarządzania ACL",
+        "szyfrowanie"
+      ],
+      "correct_answer": [
+        "uwierzytelnianie",
+        "szyfrowanie"
+      ]
+    },
+    {
+      "question": "Jakie narzędzie do testowania sieci jest używane do audytu i odzyskiwania hasła?",
+      "options": [
+        "Nessus",
+        "Metasploit",
+        "LOphtcrack",
+        "SuperScan"
+      ],
+      "correct_answer": "LOphtcrack"
+    },
+    {
+      "question": "Jaki typ zapory wykorzystuje serwer do łączenia się z urządzeniami docelowymi w imieniu klientów?",
+      "options": [
+        "zapora filtrująca pakiety",
+        "zapora proxy",
+        "bezstanowa zapora ogniowa",
+        "stanowa zapora ogniowa"
+      ],
+      "correct_answer": "zapora proxy"
+    },
+    {
+      "question": "Które dwa stwierdzenia opisują cechy algorytmów symetrycznych? (Wybierz dwa.)",
+      "options": [
+        "Są powszechnie używane w ruchu VPN.",
+        "Używają pary klucza publicznego i klucza prywatnego.",
+        "Są one powszechnie implementowane w protokołach SSL i SSH.",
+        "Zapewniają poufność, integralność i dostępność.",
+        "Są one określane jako wstępnie udostępniony klucz lub tajny klucz."
+      ],
+      "correct_answer": [
+        "Są powszechnie używane w ruchu VPN.",
+        "Są one określane jako wstępnie udostępniony klucz lub tajny klucz."
+      ]
+    },
+    {
+      "question": "Administrator serwera WWW konfiguruje ustawienia dostępu, aby wymagać od użytkowników uprzedniego uwierzytelnienia przed uzyskaniem dostępu do niektórych stron internetowych. Który wymóg bezpieczeństwa informacji jest spełniony poprzez konfigurację?",
+      "options": [
+        "dostępność",
+        "integralność",
+        "skalowalność",
+        "poufność"
+      ],
+      "correct_answer": "poufność"
+    },
+    {
+      "question": "Zastosowanie 3DES w ramach IPsec jest przykładem tego, który z pięciu bloków konstrukcyjnych IPsec?",
+      "options": [
+        "uwierzytelnianie",
+        "brak odrzucenia",
+        "integralność",
+        "Diffie-Hellman",
+        "poufność"
+      ],
+      "correct_answer": "poufność"
+    },
+    {
+      "question": "Jaką funkcję zapewnia Snort jako część Cebuli Bezpieczeństwa?",
+      "options": [
+        "generowanie alertów włamań do sieci za pomocą reguł i podpisów",
+        "w celu normalizacji dzienników z różnych dzienników danych NSM, aby można je było reprezentować, przechowywać i uzyskiwać do nich dostęp za pomocą wspólnego schematu",
+        "do wyświetlania przechwytywania pełnego pakietu do analizy",
+        "do przeglądania transkryptów pcap generowanych przez narzędzia do wykrywania włamań"
+      ],
+      "correct_answer": "generowanie alertów włamań do sieci za pomocą reguł i podpisów"
+    },
+    {
+      "question": "Jakie są dwie wady korzystania z HIPS? (Wybierz dwa.)",
+      "options": [
+        "W przypadku HIPS nie można łatwo ustalić powodzenia lub niepowodzenia ataku.",
+        "W przypadku HIPS administrator sieci musi zweryfikować obsługę wszystkich różnych systemów operacyjnych używanych w sieci.",
+        "HIPS ma trudności z konstruowaniem dokładnego obrazu sieci lub koordynowaniem zdarzeń, które występują w całej sieci.",
+        "Jeśli strumień ruchu sieciowego jest zaszyfrowany, HIPS nie może uzyskać dostępu do niezaszyfrowanych formularzy ruchu.",
+        "Instalacje HIPS są podatne na ataki fragmentacyjne lub zmienne ataki TTL."
+      ],
+      "correct_answer": [
+        "W przypadku HIPS administrator sieci musi zweryfikować obsługę wszystkich różnych systemów operacyjnych używanych w sieci.",
+        "HIPS ma trudności z konstruowaniem dokładnego obrazu sieci lub koordynowaniem zdarzeń, które występują w całej sieci."
+      ]
+    },
+    {
+      "question": "W sieci z obsługą AAA użytkownik wydaje polecenie configure terminal z uprzywilejowanego trybu działania. Jaka funkcja AAA działa, jeśli to polecenie zostanie odrzucone?",
+      "options": [
+        "autoryzacja",
+        "uwierzytelnianie",
+        "audyt",
+        "księgowość"
+      ],
+      "correct_answer": "autoryzacja"
+    },
+    {
+      "question": "Firma ma serwer plików, który udostępnia folder o nazwie Public. Polityka bezpieczeństwa sieci określa, że folder publiczny ma przypisane prawa tylko do odczytu każdemu, kto może zalogować się do serwera, podczas gdy prawa do edycji są przypisane tylko do grupy administratorów sieci. Który komponent jest adresowany w ramach usług sieciowych AAA?",
+      "options": [
+        "automatyzacja",
+        "księgowość",
+        "uwierzytelnianie",
+        "autoryzacja"
+      ],
+      "correct_answer": "autoryzacja"
+    },
+    {
+      "question": "Co jest charakterystyczne dla strefy DMZ?",
+      "options": [
+        "Ruch pochodzący z sieci wewnętrznej przechodzącej do sieci DMZ jest niedozwolony.",
+        "Ruch pochodzący z sieci zewnętrznej przechodzący do sieci DMZ jest selektywnie dozwolony.",
+        "Dozwolony jest ruch pochodzący z sieci DMZ przechodzącej do sieci wewnętrznej.",
+        "Ruch pochodzący z sieci wewnętrznej przechodzącej do sieci DMZ jest selektywnie dozwolony."
+      ],
+      "correct_answer": "Ruch pochodzący z sieci wewnętrznej przechodzącej do sieci DMZ jest niedozwolony."
+    },
+    {
+      "question": "Jaki środek może podjąć analityk bezpieczeństwa, aby przeprowadzić skuteczne monitorowanie bezpieczeństwa ruchu sieciowego szyfrowanego technologią SSL?",
+      "options": [
+        "Użyj serwera Syslog do przechwytywania ruchu sieciowego.",
+        "Wdróż urządzenie Cisco SSL.",
+        "Wymagaj połączeń zdalnego dostępu przez IPsec VPN.",
+        "Wdróż Cisco ASA."
+      ],
+      "correct_answer": "Wdróż urządzenie Cisco SSL."
+    },
+    {
+      "question": "Jakie środki bezpieczeństwa są skuteczne w zapobieganiu atakom przepełnienia stołu CAM?",
+      "options": [
+        "Szpiegowanie DHCP",
+        "Dynamiczna kontrola ARP",
+        "Ochrona źródła IP",
+        "ochrona portu"
+      ],
+      "correct_answer": "ochrona portu"
+    },
+    {
+      "question": "Jakie są dwa przykłady ataków DoS? (Wybierz dwa.)",
+      "options": [
+        "skanowanie portów",
+        "Wstrzyknięcie SQL",
+        "ping śmierci",
+        "phishing",
+        "przepełnienie bufora"
+      ],
+      "correct_answer": [
+        "ping śmierci",
+        "przepełnienie bufora"
+      ]
+    },
+    {
+      "question": "Którą metodę stosuje się do identyfikacji interesującego ruchu potrzebnego do utworzenia tunelu IKE fazy 1?",
+      "options": [
+        "zestawy transformacyjne",
+        "wpis listy dostępu do pozwolenia",
+        "algorytmy skrótu",
+        "stowarzyszenie bezpieczeństwa"
+      ],
+      "correct_answer": "wpis listy dostępu do pozwolenia"
+    },
+    {
+      "question_number": 63,
+      "question": "Kiedy CLI jest używany do skonfigurowania ISR dla połączenia VPN między witrynami, które dwa elementy muszą zostać określone, aby włączyć zasady mapy kryptograficznej? (Wybierz dwa.)",
+      "options": [
+        "a) hash",
+        "b) rówieśnik",
+        "c) szyfrowanie",
+        "d) polityka ISAKMP",
+        "e) poprawna lista dostępu",
+        "f) Adresy IP wszystkich aktywnych interfejsów",
+        "g) zasady IKE Phase 1"
+      ],
+      "correct_answer": ["b) rówieśnik", "e) poprawna lista dostępu"]
+    },
+    {
+      "question_number": 64,
+      "question": "W jaki sposób zapora ogniowa obsługuje ruch, gdy pochodzi z sieci publicznej i podróżuje do sieci DMZ?",
+      "options": [
+        "a) Ruch pochodzący z sieci publicznej jest kontrolowany i selektywnie dozwolony podczas podróży do sieci DMZ.",
+        "b) Ruch pochodzący z sieci publicznej jest zwykle dozwolony z niewielkimi lub żadnymi ograniczeniami podczas podróży do sieci DMZ.",
+        "c) Ruch pochodzący z sieci publicznej jest zwykle przesyłany bez kontroli podczas podróży do sieci DMZ.",
+        "d) Ruch pochodzący z sieci publicznej jest zwykle blokowany podczas podróży do sieci DMZ."
+      ],
+      "correct_answer": ["a) Ruch pochodzący z sieci publicznej jest kontrolowany i selektywnie dozwolony podczas podróży do sieci DMZ."]
+    },
+    {
+      "question_number": 65,
+      "question": "Klient łączy się z serwerem WWW. Który element tego połączenia HTTP nie jest badany przez stanową zaporę ogniową?",
+      "options": [
+        "a) źródłowy adres IP ruchu klienta",
+        "b) numer portu docelowego ruchu klienta",
+        "c) rzeczywista zawartość połączenia HTTP",
+        "d) numer portu źródłowego ruchu klienta"
+      ],
+      "correct_answer": ["c) rzeczywista zawartość połączenia HTTP"]
+    },
+    {
+      "question_number": 66,
+      "question": "Która technologia monitorowania sieci wykorzystuje sieci VLAN do monitorowania ruchu na zdalnych przełącznikach?",
+      "options": [
+        "a) IPS",
+        "b) IDS",
+        "c) TAP",
+        "d) RSPAN"
+      ],
+      "correct_answer": ["d) RSPAN"]
+    },
+    {
+      "question_number": 67,
+      "question": "Co jest zwykle używane do stworzenia pułapki bezpieczeństwa w obiekcie centrum danych?",
+      "options": [
+        "a) Identyfikatory, dane biometryczne i dwoje drzwi dostępu",
+        "b) monitory wysokiej rozdzielczości",
+        "c) nadmiarowe serwery uwierzytelniające",
+        "d) serwer bez wszystkich zastosowanych poprawek bezpieczeństwa"
+      ],
+      "correct_answer": ["a) Identyfikatory, dane biometryczne i dwoje drzwi dostępu"]
+    },
+    {
+      "question_number": 68,
+      "question": "Firma zajmuje się wyciekiem i kradzieżą danych korporacyjnych w formie papierowej. Która technika ograniczania utraty danych może pomóc w tej sytuacji?",
+      "options": [
+        "a) silne ustawienia bezpieczeństwa komputera",
+        "b) silne hasła",
+        "c) niszczenie",
+        "d) szyfrowanie"
+      ],
+      "correct_answer": ["c) niszczenie"]
+    },
+    {
+      "question_number": 69,
+      "question": "Po ukończeniu kursu bezpieczeństwa sieci student decyduje się na karierę w kryptoanalizie. Jaką pracę wykonałby student jako kryptoanalityk?",
+      "options": [
+        "a) łamanie kodu bez dostępu do wspólnego tajnego klucza",
+        "b) tworzenie kodów skrótu w celu uwierzytelnienia danych",
+        "c) tworzenie i łamanie tajnych kodów",
+        "d) tworzenie szyfrów transpozycyjnych i substytucyjnych"
+      ],
+      "correct_answer": ["a) łamanie kodu bez dostępu do wspólnego tajnego klucza"]
+    },
+    {
+      "question_number": 70,
+      "question": "Jakie są dwie wady korzystania z IDS? (Wybierz dwa.)",
+      "options": [
+        "a) IDS nie zatrzymuje złośliwego ruchu.",
+        "b) IDS działa offline przy użyciu kopii ruchu sieciowego.",
+        "c) IDS nie ma wpływu na ruch uliczny.",
+        "d) IDS analizuje rzeczywiste przekazane pakiety.",
+        "e) IDS wymaga, aby inne urządzenia reagowały na ataki."
+      ],
+      "correct_answer": ["a) IDS nie zatrzymuje złośliwego ruchu.", "e) IDS wymaga, aby inne urządzenia reagowały na ataki."]
+    },
+    {
+      "question_number": 71,
+      "question": "Jakie porty mogą odbierać przesyłany ruch z izolowanego portu, który jest częścią sieci PVLAN?",
+      "options": [
+        "a) inne izolowane porty i porty społeczności",
+        "b) tylko porty rozwiąże",
+        "c) wszystkie inne porty w tej samej społeczności",
+        "d) tylko izolowane porty"
+      ],
+      "correct_answer": ["b) tylko porty rozwiąże"]
+    },
+    {
+      "question_number": 72,
+      "question": "Użytkownik skarży się na zablokowanie urządzenia po zbyt wielu nieudanych próbach logowania AAA. Co może być wykorzystane przez administratora sieci do zapewnienia bezpiecznej metody dostępu do uwierzytelniania bez blokowania użytkownika poza urządzeniem?",
+      "options": [
+        "a) Użyj polecenia opóźnienia logowania do prób uwierzytelnienia.",
+        "b) Użyj lokalnego polecenia logowania, aby uwierzytelnić dostęp użytkownika.",
+        "c) Użyj polecenia aaa lokalne uwierzytelnianie próbuje maksymalnego niepowodzenia globalnego trybu konfiguracji z większą liczbą akceptowalnych awarii.",
+        "d) Podczas konfigurowania listy metod uwierzytelniania użyj słowa kluczowego brak."
+      ],
+      "correct_answer": ["a) Użyj polecenia opóźnienia logowania do prób uwierzytelnienia."]
+    },
+    {
+      "question_number": 73,
+      "question": "Jakie są dwie wady przypisywania poziomów uprawnień użytkownika routerowi Cisco? (Wybierz dwa.)",
+      "options": [
+        "a) Tylko użytkownik root może dodawać lub usuwać polecenia.",
+        "b) Poziomy uprawnień muszą być ustawione, aby umożliwić kontrolę dostępu do określonych interfejsów urządzeń, portów lub gniazd.",
+        "c) Przypisanie polecenia z wieloma słowami kluczowymi umożliwia dostęp do wszystkich poleceń za pomocą tych słów kluczowych.",
+        "d) Polecenia z niższego poziomu są zawsze wykonywalne na wyższym poziomie.",
+        "e) AAA musi być włączone."
+      ],
+      "correct_answer": ["c) Przypisanie polecenia z wieloma słowami kluczowymi umożliwia dostęp do wszystkich poleceń za pomocą tych słów kluczowych.", "d) Polecenia z niższego poziomu są zawsze wykonywalne na wyższym poziomie."]
+    },
+    {
+      "question_number": 75,
+      "question": "Jakie są dwa powody, aby włączyć uwierzytelnianie protokołu routingu OSPF w sieci? (Wybierz dwa.)",
+      "options": [
+        "a) aby zapobiec przekierowaniu, a następnie odrzuceniu ruchu danych",
+        "b) w celu zapewnienia szybszej konwergencji sieci",
+        "c) zapewnienie bezpieczeństwa danych poprzez szyfrowanie",
+        "d) aby zapobiec przekierowaniu ruchu danych do niepewnego łącza",
+        "e) w celu zapewnienia bardziej wydajnego routingu"
+      ],
+      "correct_answer": ["a) aby zapobiec przekierowaniu, a następnie odrzuceniu ruchu danych", "d) aby zapobiec przekierowaniu ruchu danych do niepewnego łącza"]
+    },
+    {
+      "question_number": 77,
+      "question": "Jakie trzy funkcje zapewnia usługa rejestrowania syslog? (Wybierz trzy.)",
+      "options": [
+        "a) zbieranie informacji o logowaniu",
+        "b) uwierzytelnianie i szyfrowanie danych wysyłanych przez sieć",
+        "c) zatrzymywanie przechwyconych wiadomości na routerze po ponownym uruchomieniu routera",
+        "d) określając, gdzie przechowywane są przechwycone informacje",
+        "e) rozróżnienie między informacjami do przechwycenia a informacjami do zignorowania",
+        "f) ustawienie rozmiaru bufora rejestrowania"
+      ],
+      "correct_answer": ["a) zbieranie informacji o logowaniu", "d) określając, gdzie przechowywane są przechwycone informacje", "e) rozróżnienie między informacjami do przechwycenia a informacjami do zignorowania"]
+    },
+    {
+      "question_number": 78,
+      "question": "Jakie dwa typy komunikatów ICMPv6 muszą być dozwolone za pośrednictwem list kontroli dostępu IPv6, aby umożliwić rozdzielczość adresów warstwy 3 na adresy MAC warstwy 2? (Wybierz dwa.)",
+      "options": [
+        "a) pozyskiwanie sąsiadów",
+        "b) żądania echa",
+        "c) reklamy sąsiadów",
+        "d) odpowiedzi echa",
+        "e) pozyskiwanie routera",
+        "f) reklamy routera"
+      ],
+      "correct_answer": ["a) pozyskiwanie sąsiadów", "c) reklamy sąsiadów"]
+    },
+    {
+      "question_number": 79,
+      "question": "Jakie trzy usługi są świadczone za pośrednictwem podpisów cyfrowych? (Wybierz trzy.)",
+      "options": [
+        "a) księgowość",
+        "b) autentyczność",
+        "c) kompresja",
+        "d) brak odrzucenia",
+        "e) integralność",
+        "f) szyfrowanie"
+      ],
+      "correct_answer": ["b) autentyczność", "d) brak odrzucenia", "e) integralność"]
+    },
+    {
+      "question_number": 80,
+      "question": "Technik ma udokumentować bieżące konfiguracje wszystkich urządzeń sieciowych w college'u, w tym w budynkach zewnętrznych. Którego protokołu najlepiej użyć, aby bezpiecznie uzyskać dostęp do urządzeń sieciowych?",
+      "options": [
+        "a) FTP",
+        "b) HTTP",
+        "c) SSH",
+        "d) Telnet"
+      ],
+      "correct_answer": ["c) SSH"]
+    },
+    {
+      "question_number": 81,
+      "question": "Administrator próbuje opracować politykę bezpieczeństwa BYOD dla pracowników, którzy wprowadzają szeroką gamę urządzeń do połączenia z siecią firmy. Do jakich trzech celów musi odnosić się polityka bezpieczeństwa BYOD? (Wybierz trzy.)",
+      "options": [
+        "a) Wszystkie urządzenia muszą być ubezpieczone od odpowiedzialności, jeśli zostaną wykorzystane do naruszenia sieci korporacyjnej.",
+        "b) Wszystkie urządzenia muszą mieć otwarte uwierzytelnianie w sieci korporacyjnej.",
+        "c) Prawa i działania dozwolone w sieci korporacyjnej muszą zostać określone.",
+        "d) Należy wprowadzić zabezpieczenia przed zagrożeniem dla każdego urządzenia osobistego.",
+        "e) Należy określić poziom dostępu pracowników podczas łączenia się z siecią korporacyjną.",
+        "f) Wszystkie urządzenia powinny mieć możliwość bezbłędnego podłączenia do sieci korporacyjnej."
+      ],
+      "correct_answer": ["c) Prawa i działania dozwolone w sieci korporacyjnej muszą zostać określone.", "d) Należy wprowadzić zabezpieczenia przed zagrożeniem dla każdego urządzenia osobistego.", "e) Należy określić poziom dostępu pracowników podczas łączenia się z siecią korporacyjną."]
+    },
+    {
+      "question_number": 82,
+      "question": "Jaka jest funkcja transmisji w zaporze opartej na strefie Cisco IOS?",
+      "options": [
+        "a) rejestrowanie odrzuconych lub upuszczonych pakietów",
+        "b) kontrola ruchu między strefami w celu kontroli ruchu",
+        "c) śledzenie stanu połączeń między strefami",
+        "d) przekazywanie ruchu z jednej strefy do drugiej"
+      ],
+      "correct_answer": ["d) przekazywanie ruchu z jednej strefy do drugiej"]
+    },
+    {
+      "question_number": 83,
+      "question": "Jakiego narzędzia do testowania sieci można użyć do identyfikacji protokołów warstwy sieciowej działających na hoście?",
+      "options": [
+        "a) SIEM",
+        "b) Nmap",
+        "c) Lłphiccrack",
+        "d) Tripwire"
+      ],
+      "correct_answer": ["b) Nmap"]
+    },
+    {
+      "question_number": 84,
+      "question": "Czy we wdrażaniu zabezpieczeń na wielu urządzeniach ASA ACL różnią się od Cisco IOS ACL?",
+      "options": [
+        "a) Routery Cisco IOS wykorzystują zarówno nazwane, jak i numerowane listy ACL, a urządzenia Cisco ASA wykorzystują tylko numerowane listy ACL.",
+        "b) Cisco IOS ACL są skonfigurowane z maską wieloznaczną, a Cisco ASA ACL są skonfigurowane z maską podsieci.",
+        "c) ACL Cisco IOS są przetwarzane sekwencyjnie od góry do dołu, a ACL Cisco ASA nie są przetwarzane sekwencyjnie.",
+        "d) Cisco IOS ACL wykorzystują niejawne zaprzeczenie wszystkim, a Cisco ASA ACL kończą się niejawnym zezwoleniem wszystkim."
+      ],
+      "correct_answer": ["b) Cisco IOS ACL są skonfigurowane z maską wieloznaczną, a Cisco ASA ACL są skonfigurowane z maską podsieci."]
+    },
+    {
+      "question_number": 85,
+      "question": "Które stwierdzenie opisuje ważną cechę VPN między witrynami?",
+      "options": [
+        "a) Musi być ustawiony statycznie.",
+        "b) Idealnie nadaje się do użytku przez pracowników mobilnych.",
+        "c) Wymaga użycia klienta VPN na komputerze hosta.",
+        "d) Po ustanowieniu początkowego połączenia może dynamicznie zmieniać informacje o połączeniu.",
+        "e) Jest powszechnie wdrażany przez sieci dialup i modemów kablowych."
+      ],
+      "correct_answer": ["a) Musi być ustawiony statycznie."]
+    },
+    {
+      "question_number": 86,
+      "question": "Które dwie opcje to najlepsze praktyki bezpieczeństwa, które pomagają zmniejszyć ryzyko BYOD? (Wybierz dwa.)",
+      "options": [
+        "a) Używaj farby, która odbija sygnały bezprzewodowe i szkła, które zapobiegają wydostawaniu się sygnałów na zewnątrz budynku.",
+        "b) Aktualizuj system operacyjny urządzenia i oprogramowanie.",
+        "c) Zezwalaj tylko na urządzenia zatwierdzone przez korporacyjny zespół IT.",
+        "d) Włącz Wi-Fi tylko podczas korzystania z sieci bezprzewodowej.",
+        "e) Zmniejsz poziom wzmocnienia anteny bezprzewodowej.",
+        "f) Użyj bezprzewodowego filtrowania adresów MAC."
+      ],
+      "correct_answer": ["b) Aktualizuj system operacyjny urządzenia i oprogramowanie.", "d) Włącz Wi-Fi tylko podczas korzystania z sieci bezprzewodowej."]
+    },
+    {
+      "question_number": 87,
+      "question": "Niedawno utworzony ACL nie działa zgodnie z oczekiwaniami. Administrator ustalił, że ACL został zastosowany w interfejsie i to był niepoprawny kierunek. Jak administrator powinien rozwiązać ten problem?",
+      "options": [
+        "a) Usuń oryginalną ACL i utwórz nową ACL, stosując ją wychodzącą na interfejsie.",
+        "b) Dodaj powiązanie wyjścia ACL na tym samym interfejsie.",
+        "c) Napraw instrukcje ACE, aby działały zgodnie z oczekiwaniami w interfejsie.",
+        "d) Usuń skojarzenie przychodzące ACL na interfejsie i ponownie zastosuj je wychodzące."
+      ],
+      "correct_answer": ["a) Usuń oryginalną ACL i utwórz nową ACL, stosując ją wychodzącą na interfejsie."]
+    },
+    {
+      "question_number": 88,
+      "question": "Jaka cecha subskrypcji opartych na snortach dotyczy zarówno społeczności, jak i zestawów reguł subskrybentów?",
+      "options": [
+        "a) Oba mają 30-dniowy opóźniony dostęp do zaktualizowanych podpisów.",
+        "b) Oba wykorzystują Cisco Talos do zapewnienia zasięgu przed exploitami.",
+        "c) Oba są w pełni obsługiwane przez Cisco i obejmują obsługę klienta Cisco.",
+        "d) Oba zapewniają ochronę przed zagrożeniami bezpieczeństwa."
+      ],
+      "correct_answer": ["d) Oba zapewniają ochronę przed zagrożeniami bezpieczeństwa."]
+    },
+    {
+      "question_number": 89,
+      "question": "Analityk bezpieczeństwa konfiguruje Snort IPS. Analityk właśnie pobrał i zainstalował plik Snort OVA. Jaki jest następny krok?",
+      "options": [
+        "a) Sprawdź Snort IPS.",
+        "b) Skonfiguruj interfejsy grupy portów wirtualnych.",
+        "c) Włącz IPS globalnie lub na pożądanych interfejsach.",
+        "d) Aktywuj usługi wirtualne."
+      ],
+      "correct_answer": ["b) Skonfiguruj interfejsy grupy portów wirtualnych."]
+    },
+    {
+      "question_number": 90,
+      "question": "Polityka bezpieczeństwa w firmie określa, że stacje robocze pracowników mogą inicjować połączenia HTTP i HTTPS z zewnętrznymi stronami internetowymi, a ruch powrotny jest dozwolony. Jednak połączenia inicjowane z zewnętrznych hostów są niedozwolone. Który parametr można zastosować w rozszerzonych ACL, aby spełnić to wymaganie?",
+      "options": [
+        "a) dscp",
+        "b) pierwczeństwo",
+        "c) ekwiwalent",
+        "d) ustanowiony"
+      ],
+      "correct_answer": ["d) ustanowiony"]
+    },
+    {
+      "question_number": 91,
+      "question": "Badacz porównuje różnice między bezstanową zaporą ogniową a zaporą proxy. Które dwie dodatkowe warstwy modelu OSI są sprawdzane przez zaporę proxy? (Wybierz dwa.)",
+      "options": [
+        "a) Warstwa 3",
+        "b) Warstwa 4",
+        "c) Warstwa 5",
+        "d) Warstwa 6",
+        "e) Warstwa 7"
+      ],
+      "correct_answer": ["c) Warstwa 5", "e) Warstwa 7"]
+    },
+    {
+      "question_number": 92,
+      "question": "Który poziom uprawnień ma największy dostęp do Cisco IOS?",
+      "options": [
+        "a) poziom 0",
+        "b) poziom 15",
+        "c) poziom 7",
+        "d) poziom 16",
+        "e) poziom 1"
+      ],
+      "correct_answer": ["b) poziom 15"]
+    },
+    {
+      "question_number": 93,
+      "question": "Analityk sieci konfiguruje VPN IPsec między witrynami. Analityk skonfigurował zarówno zasady ISAKMP, jak i IPsec. Jaki jest następny krok?",
+      "options": [
+        "a) Skonfiguruj skrót jako SHA, a uwierzytelnianie jako wstępnie udostępnione",
+        "b) Zastosuj mapę kryptograficzną do odpowiednich interfejsów wychodzących.",
+        "c) Wydaj polecenie crypto ipsec sa, aby zweryfikować tunel.",
+        "d) Sprawdź, czy funkcja bezpieczeństwa jest włączona w systemie IOS."
+      ],
+      "correct_answer": ["b) Zastosuj mapę kryptograficzną do odpowiednich interfejsów wychodzących."]
+    },
+    {
+      "question_number": 94,
+      "question": "Kiedy wdrażany jest przychodzący ACL ruchu internetowego, co należy uwzględnić, aby zapobiec fałszowaniu sieci wewnętrznych?",
+      "options": [
+        "a) ACE zapobiegają ruchowi z prywatnych przestrzeni adresowych",
+        "b) ACE zapobiegające ruchowi adresów rozgłoszeniowych",
+        "c) ACE zapobiegające ruchowi ICMP",
+        "d) ACE zapobiegają ruchowi HTTP",
+        "e) ACE zapobiegają ruchowi SNMP"
+      ],
+      "correct_answer": ["a) ACE zapobiegają ruchowi z prywatnych przestrzeni adresowych"]
+    },
+    {
+      "question_number": 95,
+      "question": "Jakie dwa rodzaje ataków są przykładami ataków rozpoznawczych? (Wybierz dwa.)",
+      "options": [
+        "a) brutalna siła",
+        "b) skanowanie portu",
+        "c) ping sweter",
+        "d) człowiek w środku",
+        "e) Powódź SYN"
+      ],
+      "correct_answer": ["b) skanowanie portu", "c) ping sweter"]
+    },
+    {
+      "question_number": 96,
+      "question": "Które rozwiązanie Cisco pomaga zapobiegać fałszowaniu ARP i atakom zatrucia ARP?",
+      "options": [
+        "a) Dynamiczna kontrola ARP",
+        "b) Ochrona źródła IP",
+        "c) DHCP Snooping",
+        "d) Bezpieczeństwo portu"
+      ],
+      "correct_answer": ["a) Dynamiczna kontrola ARP"]
+    },
+    {
+      "question_number": 97,
+      "question": "Kiedy urządzenie Cisco NAC ocenia połączenie przychodzące ze zdalnego urządzenia na podstawie zdefiniowanych zasad sieciowych, jaka funkcja jest używana?",
+      "options": [
+        "a) ocena postawy",
+        "b) rekultywacja systemów niezgodnych",
+        "c) uwierzytelnianie i autoryzacja",
+        "d) kwarantanna systemów niezgodnych"
+      ],
+      "correct_answer": ["a) ocena postawy"]
+    },
+    {
+      "question_number": 98,
+      "question": "Jakie dwa kroki są wymagane, aby włączyć SSH na routerze Cisco? (Wybierz dwa.)",
+      "options": [
+        "a) Nadaj routerowi nazwę hosta i nazwę domeny.",
+        "b) Utwórz baner, który będzie wyświetlany użytkownikom podczas łączenia.",
+        "c) Generuj zestaw tajnych kluczy, które będą używane do szyfrowania i deszyfrowania.",
+        "d) Skonfiguruj serwer uwierzytelniania do obsługi żądań połączenia przychodzącego.",
+        "e) Włącz SSH na fizycznych interfejsach, na których będą odbierane przychodzące żądania połączenia."
+      ],
+      "correct_answer": ["a) Nadaj routerowi nazwę hosta i nazwę domeny.", "c) Generuj zestaw tajnych kluczy, które będą używane do szyfrowania i deszyfrowania."]
+    },
+    {
+      "question_number": 99,
+      "question": "Administrator serwera WWW konfiguruje ustawienia dostępu, aby wymagać od użytkowników uprzedniego uwierzytelnienia przed uzyskaniem dostępu do niektórych stron internetowych. Jaka usługa zapewnia tego rodzaju gwarancję?",
+      "options": [
+        "a) poufność",
+        "b) uwierzytelnianie",
+        "c) integralność",
+        "d) brak odrzucenia"
+      ],
+      "correct_answer": ["d) brak odrzucenia"]
+    },
+    {
+      "question_number": 100,
+      "question": "Jakie funkcje zapewnia Cisco SPAN w przełączanej sieci?",
+      "options": [
+        "a) Odzwierciedla ruch, który przechodzi przez port przełączania lub VLAN do innego portu w celu analizy ruchu.",
+        "b) Zapobiega zakłóceniu ruchu w sieci LAN przez burzę nadawczą.",
+        "c) Chroni przełączaną sieć przed odbieraniem BPDU na portach, które nie powinny ich odbierać.",
+        "d) Kopiuje ruch przechodzący przez interfejs przełącznika i wysyła dane bezpośrednio do syslog lub serwera SNMP w celu analizy.",
+        "e) Sprawdza protokoły głosowe, aby upewnić się, że żądania SIP, SCCP, H.323 i MGCP są zgodne ze standardami głosowymi.",
+        "f) Łagodzi ataki przepelnienia adresu MAC."
+      ],
+      "correct_answer": ["a) Odzwierciedla ruch, który przechodzi przez port przełączania lub VLAN do innego portu w celu analizy ruchu."]
+    },
+    {
+      "question_number": 101,
+      "question": "Które trzy stwierdzenia są ogólnie uważane za najlepsze praktyki w zakresie umieszczania ACL? (Wybierz trzy.)",
+      "options": [
+        "a) Filtruj niechciany ruch, zanim przejdzie do łącza o niskiej przepustowości.",
+        "b) Umieść standardowe listy ACL w pobliżu docelowego adresu IP ruchu.",
+        "c) Umieść standardowe listy ACL w pobliżu źródłowego adresu IP ruchu.",
+        "d) Umieść rozszerzone ACL w pobliżu docelowego adresu IP ruchu.",
+        "e) Umieść rozszerzone ACL w pobliżu źródłowego adresu IP ruchu.",
+        "f) Dla każdego przychodzącego ACL umieszczonego na interfejsie powinna istnieć pasująca wychodząca ACL."
+      ],
+      "correct_answer": ["a) Filtruj niechciany ruch, zanim przejdzie do łącza o niskiej przepustowości.", "b) Umieść standardowe listy ACL w pobliżu docelowego adresu IP ruchu.", "e) Umieść rozszerzone ACL w pobliżu źródłowego adresu IP ruchu."]
+    },
+    {
+      "question_number": 102,
+      "question": "Jaką funkcję pełni obiekt konfiguracyjny map klas w modułowej strukturze zasad Cisco?",
+      "options": [
+        "a) identyfikacja interesującego ruchu",
+        "b) stosowanie zasad do interfejsu",
+        "c) stosowanie zasad do interesującego ruchu",
+        "d) ograniczanie ruchu przez interfejs"
+      ],
+      "correct_answer": ["a) identyfikacja interesującego ruchu"]
+    },
+    {
+      "question_number": 103,
+      "question": "Próbując zapobiec atakom sieciowym, analitycy cyber dzielą się z kolegami unikalnymi możliwymi do zidentyfikowania atrybutami znanych ataków. Jakie trzy rodzaje atrybutów lub wskaźników kompromisu są pomocne do udostępnienia? (Wybierz trzy.)",
+      "options": [
+        "a) Adresy IP serwerów atakujących",
+        "b) zmiany wprowadzone w oprogramowaniu końcowym",
+        "c) nazwy net bios skompromitowanych zapór ogniowych",
+        "d) funkcje złośliwego oprogramowania",
+        "e) BIOS systemów atakujących",
+        "f) identyfikator systemu zagrożonych systemów"
+      ],
+      "correct_answer": ["a) Adresy IP serwerów atakujących", "b) zmiany wprowadzone w oprogramowaniu końcowym", "d) funkcje złośliwego oprogramowania"]
+    },
+    {
+      "question_number": 104,
+      "question": "Jakie dwa zapewnienia zapewnia podpisywanie cyfrowe dotyczące kodu pobieranego z Internetu? (Wybierz dwa.)",
+      "options": [
+        "a) Kod jest autentyczny i faktycznie pochodzi od wydawcy.",
+        "b) Kod nie zawiera błędów.",
+        "c) Kod nie został zmodyfikowany, ponieważ opuścił wydawcę oprogramowania.",
+        "d) Kod nie zawiera wirusów.",
+        "e) Kod został zaszyfrowany zarówno kluczem prywatnym, jak i publicznym."
+      ],
+      "correct_answer": ["a) Kod jest autentyczny i faktycznie pochodzi od wydawcy.", "c) Kod nie został zmodyfikowany, ponieważ opuścił wydawcę oprogramowania."]
+    },
+    {
+      "question_number": 105,
+      "question": "Króre dwie instrukcje opisują użycie algorytmów asymetrycznych? (Wybierz dwa.)",
+      "options": [
+        "a) Klucze publiczne i prywatne mogą być używane zamienne.",
+        "b) Jeśli do szyfrowania danych używany jest klucz publiczny, do odszyfrowania danych należy użyć klucza publicznego.",
+        "c) Jeśli do szyfrowania danych używany jest klucz prywatny, do odszyfrowania danych należy użyć klucza publicznego.",
+        "d) Jeśli do szyfrowania danych używany jest klucz publiczny, do odszyfrowania danych należy użyć klucza prywatnego.",
+        "e) Jeśli do szyfrowania danych używany jest klucz prywatny, do odszyfrowania danych należy użyć klucza prywatnego."
+      ],
+      "correct_answer": ["c) Jeśli do szyfrowania danych używany jest klucz prywatny, do odszyfrowania danych należy użyć klucza publicznego.", "d) Jeśli do szyfrowania danych używany jest klucz publiczny, do odszyfrowania danych należy użyć klucza prywatnego."]
+    },
+    {
+      "question_number": 106,
+      "question": "Króre stwierdzenie jest cechą HMAC?",
+      "options": [
+        "a) HMAC używa tajnego klucza, który jest znany tylko nadawcy i pokonuje ataki typu man-in-the-middle.",
+        "b) HMAC używa protokołów takich jak SSL lub TLS, aby zapewnić poufność warstwy sesji.",
+        "c) HMAC używa tajnego klucza jako wejścia do funkcji skrótu, dodając uwierzytelnienie do zapewnienia integralności.",
+        "d) HMAC opiera się na funkcji skrótu RSA."
+      ],
+      "correct_answer": ["c) HMAC używa tajnego klucza jako wejścia do funkcji skrótu, dodając uwierzytelnienie do zapewnienia integralności."]
+    },
+    {
+      "question_number": 107,
+      "question": "Jaki jest cel ACL typu w ASA?",
+      "options": [
+        "a) w celu sprawdzenia ruchu wychodzącego skierowanego w stronę niektórych stron internetowych",
+        "b) ograniczenie ruchu przeznaczonego na ASDM",
+        "c) do monitorowania ruchu powrotnego, który jest odpowiedzią na żądania serwera WWW inicjowane z interfejsu wewnętrznego",
+        "d) filtrować ruch dla bez klienckich użytkowników SSL VPN"
+      ],
+      "correct_answer": ["d) filtrować ruch dla bez klienckich użytkowników SSL VPN"]
+    },
+    {
+      "question_number": 108,
+      "question": "Który typ zapory jest najczęstszy i pozwala lub blokuje ruch na podstawie informacji o warstwie 3, warstwie 4 i warstwie 5?",
+      "options": [
+        "a) bezstanowa zapora ogniowa",
+        "b) zapora filtrująca pakiety",
+        "c) zapora nowej generacji",
+        "d) stanowa zapora ogniowa"
+      ],
+      "correct_answer": ["d) stanowa zapora ogniowa"]
+    },
+    {
+      "question_number": 109,
+      "question": "Którego protokołu lub środka należy użyć, aby złagodzić lukę w korzystaniu z FTP do przesyłania dokumentów między telepracownikiem a serwerem plików firmy?",
+      "options": [
+        "a) SCP",
+        "b) TFTP",
+        "c) ACL na serwerze plików",
+        "d) pozapasmowy kanal komunikacyjny"
+      ],
+      "correct_answer": ["a) SCP"]
+    },
+    {
+      "question_number": 110,
+      "question": "Jakie narzędzie jest dostępne za pośrednictwem Cisco IOS CLI do inicjowania audytów bezpieczeństwa i wprowadzania zalecanych zmian konfiguracji z wejściem administratora lub bez niego?",
+      "options": [
+        "a) Kontrola kontroli samolotów",
+        "b) Cisco AutoSecure",
+        "c) Cisco ACS",
+        "d) Prosty protokół zarządzania siecią"
+      ],
+      "correct_answer": ["b) Cisco AutoSecure"]
+    },
+    {
+      "question_number": 111,
+      "question": "Które dwie technologie zapewniają rozwiązania VPN zarządzane przez przedsiębiorstwo? (Wybierz dwa.)",
+      "options": [
+        "a) Warstwa 3 MPLS VPN",
+        "b) Przekażnik ramy",
+        "c) VPN od strony do strony",
+        "d) Warstwa 2 MPLS VPN",
+        "e) zdalny dostęp VPN"
+      ],
+      "correct_answer": ["c) VPN od strony do strony", "e) zdalny dostęp VPN"]
+    },
+    {
+      "question_number": 112,
+      "question": "Jakie są trzy elementy identyfikatora mostu STP? (Wybierz trzy.)",
+      "options": [
+        "a) data i godzina wprowadzenia zmiany do sieci",
+        "b) nazwa hosta przełącznika",
+        "c) adres MAC przełącznika",
+        "d) rozszerzony identyfikator systemu",
+        "e) wartość priorytetowa mostu",
+        "f) adres IP zarządzającej sieci VLAN"
+      ],
+      "correct_answer": ["c) adres MAC przełącznika", "d) rozszerzony identyfikator systemu", "e) wartość priorytetowa mostu"]
+    },
+    {
+      "question_number": 113,
+      "question": "Jakie są dwie różnice między okazałymi i filtrującymi zapory ogniowe? (Wybierz dwa.)",
+      "options": [
+        "a) Zapora filtrująca pakiety zapobiegnie fałszowaniu, określając, czy pakiety należą do istniejącego połączenia, podczas gdy okazała zapora ogniowa przestrzega wstępnie skonfigurowanych zestawów reguł.",
+        "b) Okazała zapora ogniowa zapewnia bardziej rygorystyczną kontrolę nad bezpieczeństwem niż zapora filtrująca pakiety.",
+        "c) Zapora filtrująca pakiety może filtrować sesje wykorzystujące dynamiczne negocjacje portów, podczas gdy państwowa zapora ogniowa nie może.",
+        "d) Okazała zapora sieciowa zapewni więcej informacji o rejestrowaniu niż zapora filtrująca pakiety.",
+        "e) Zapora ogniowa sprawdzi każdy pakiet indywidualnie, a zapora filtrująca pakiet obserwuje stan połączenia."
+      ],
+      "correct_answer": ["b) Okazała zapora ogniowa zapewnia bardziej rygorystyczną kontrolę nad bezpieczeństwem niż zapora filtrująca pakiety.", "d) Okazała zapora sieciowa zapewni więcej informacji o rejestrowaniu niż zapora filtrująca pakiety."]
+    },
+    {
+      "question_number": 114,
+      "question": "Jaki stan portu jest używany przez 802.1X, jeśli stacja robocza nie autoryzuje?",
+      "options": [
+        "a) niepełnosprawny",
+        "b) w dół",
+        "c) nieautoryzowany",
+        "d) blokowanie"
+      ],
+      "correct_answer": ["c) nieautoryzowany"]
+    },
+    {
+      "question_number": 115,
+      "question": "Jakie dwie cechy dotyczą opartych na rolach przeglądów dostępu do CLI? (Wybierz dwa.)",
+      "options": [
+        "a) W konkretnym podglądzie nie można bezpośrednio dodawać do niego poleceń.",
+        "b) Widoki CLI mają hasła, ale podglądy nie mają haseł.",
+        "c) Pojedynczy podgląd może być udostępniany wielu widokom CLI.",
+        "d) Usunięcie podglądu usuwa wszystkie powiązane widoki CLI.",
+        "e) Użytkownicy zalogowani do podglądu mogą uzyskać dostęp do wszystkich poleceń określonych w powiązanych widokach CLI."
+      ],
+      "correct_answer": ["a) W konkretnym podglądzie nie można bezpośrednio dodawać do niego poleceń.", "e) Użytkownicy zalogowani do podglądu mogą uzyskać dostęp do wszystkich poleceń określonych w powiązanych widokach CLI."]
+    },
+    {
+      "question_number": 116,
+      "question": "Jakie są dwie funkcje bezpieczeństwa powszechnie spotykane w projekcie WAN? (Wybierz dwa.)",
+      "options": [
+        "a) WPA2 do szyfrowania danych wszystkich danych między witrynami",
+        "b) zapory ogniowe chroniące główne i odległe strony",
+        "c) bezpieczeństwo poza obwodem, w tym ciągły nadzór wideo",
+        "d) bezpieczeństwo portu we wszystkich portach skierowanych do użytkownika",
+        "e) VPN używane przez pracowników mobilnych między witrynami"
+      ],
+      "correct_answer": ["b) zapory ogniowe chroniące główne i odległe strony", "e) VPN używane przez pracowników mobilnych między witrynami"]
+    }
+  ]
+}
